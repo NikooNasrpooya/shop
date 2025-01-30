@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="flexboxgrid.css" />
+    <title>Shop</title>
+    <script
+      src="https://kit.fontawesome.com/6864e99aad.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-left">
+          <a href="">signup / login</a>
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="nav-right">
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href=""><i class="fa-regular fas fa-house"></i></a>
+          <a href=""><i class="fa-light fas fa-cart-shopping"></i></a>
+          <a href=""><i class="fa-regular fa-user"></i></a>
+        </div>
+      </nav>
+      <section class="slider">
+        <div class="slides">
+          <div class="item active" id="slide1">
+            <img src="images/umn.jpg" alt="" />
+            <span>Listen to songs more alive than they are</span>
+          </div>
+          <div class="item" id="slide2">
+            <img src="images/dzenina-lukac.jpg" alt="" />
+            <span>The quality you were looking for is here</span>
+          </div>
+          <div class="item" id="slide3">
+            <img src="images/moose-photos.jpg" alt="" />
+            <span>Listen to your dreem loudly</span>
+          </div>
+        </div>
+        <div class="buttuns">
+          <i onclick="setSlide('slide1',1)" class="fa-solid fa-circle"></i>
+          <i onclick="setSlide('slide2',2)" class="fa-solid fa-circle"></i>
+          <i onclick="setSlide('slide3',3)" class="fa-solid fa-circle"></i>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="home-page-product">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shopping-card"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
