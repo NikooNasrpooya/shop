@@ -1,2 +1,1 @@
-See the preview here:
-(https://nikoonasrpooya.github.io/shop/)
+[Try it here](https://nikoonasrpooya.github.io/shop/)
